@@ -79,7 +79,7 @@ h2{
     height: 32vh;
 }
 .space{
-    height:20vh;
+    height:40vh;
 }
 #My_Projects{
     margin-left: 25vw;
@@ -106,7 +106,7 @@ h2{
    border-radius: 10%;
 }
 .space3{
-    height: 10vh;
+    height: 20vh;
 }
 .quote{
     position: sticky;
@@ -116,6 +116,10 @@ h2{
     background-color: rgba(1, 1, 1, 1);
     width: 80vw;
     height: 100vh;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 2vw;
 }
 
 .qi4{
