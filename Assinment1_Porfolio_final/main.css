@@ -1,0 +1,147 @@
+body{
+    background-color:rgba(1, 1, 1, 0.8);
+    background-image: url(/images/background_img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+.add_space{
+    height: 20vh;
+}
+h1 {
+    transform: translateX(100%);
+    animation-name: anim1;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    font-size: 3vw;
+}
+
+@keyframes anim1 {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+h2{
+    font-family: 'Lobster','san serif';
+    text-align: center;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+.nav_bar{
+    position: sticky;
+    top:0;
+}
+.nav_ele{
+    color:white;
+}
+.quoteinitial{
+    display:block;
+    background-color: rgba(1, 1, 1, 0.6);
+    height: auto;
+    width: 80vw;
+    border: 1vh 1vw 1vh 1vw solid black;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size:3vw;
+    padding-top: 2vh ;
+    padding-bottom:2vh ;
+}
+#About_me{
+    display:block;
+    background-color: rgba(1, 1, 1, 0.6);
+    height: auto;
+    width: 80vw;
+    border: 1vh 1vw 1vh 1vw solid black;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size:2vw;
+    padding-top: 2vh ;
+    padding-bottom:2vh ;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.space_req2{
+    height: 32vh;
+}
+.space{
+    height:20vh;
+}
+#My_Projects{
+    margin-left: 25vw;
+    margin-right:25vw ;
+    width: 50vw;
+    background-color: rgba(1, 1, 1, 0.6);
+    text-align: center;
+}
+#addons{
+    padding: 2vh 1vw 1vh 1vw;
+}
+.images_css{
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: auto;
+    justify-content: space-around;
+}
+#My_Projects .imgs{
+   width: 20vw;
+   padding-bottom: 2vh;
+   padding-top: 2vh;
+   height: 30vh;
+   gap:2vw;
+   border-radius: 10%;
+}
+.space3{
+    height: 10vh;
+}
+.quote{
+    position: sticky;
+    top: 0;
+}
+.quote{
+    background-color: rgba(1, 1, 1, 1);
+    width: 80vw;
+    height: 100vh;
+}
+
+.qi4{
+    height: 60vh;
+    width: 70vw;
+}
+.qi3{
+    height: 70vh;
+}
+.img_git{
+    height: 10vh;
+    align-items: initial;
+    border-radius: 50%;
+}
+#Contact{
+    display:block;
+    background-color: rgba(1, 1, 1, 0.6);
+    height: 35vh;
+    width: 80vw;
+    border: 1vh 1vw 1vh 1vw solid black;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size:2vw;
+    padding-top: 2vh ;
+    padding-bottom:2vh ;
+}
